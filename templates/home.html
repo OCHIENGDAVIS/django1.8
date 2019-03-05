@@ -1,0 +1,24 @@
+
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="row">
+    <div class="col-md-3">
+        <p class="lead text-align-center">Built with Django &amp; Bootstrap</p>
+    </div>
+    <div class="col-md-3">
+        <p class="lead text-align-center">Created for starters of all kind</p>
+    </div>
+    <div class="col-md-3">
+        <p class="lead text-align-center">Always open Source</p>
+    </div>
+    <div class="col-md-3 pull-right">
+        <p class="lead text-align-center">Welcome</p>
+        <form method="POST">{% csrf_token %}
+            {{ form|crispy }}
+            <input type="submit" value="Send" class="btn btn-primary">
+        </form>
+    </div>
+</div>
+
+{% endblock %}
