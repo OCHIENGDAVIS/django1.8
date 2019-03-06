@@ -3,5 +3,62 @@
 }
 .text-align-center{
     text-align:center;
-    color:red;
+
  }
+ .bg-color{
+    background-color: #0a653b;
+ }
+ .color-white{
+
+    color:#fff !important;
+ }
+ .custom_navbar{
+    margin-bottom:0px;
+ }
+ .navbar-default{
+
+    border-color: #3d7f51;
+ }
+
+ .navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size:17px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+    font-size: 20px;
+}
+.navbar-default .navbar-brand:hover{
+    color: #fff;
+
+}
+.form-heading{
+
+    padding-top: 14px;
+}
+
+.btn-primary {
+    color: #fff;
+    border-color: #FFF;
+    background-color:#3d7f51;
+}
+.btn-primary:hover{
+    color: #3d7f51;
+    border-color: #FFF;
+    background-color:#FFF;
+    border: 1px solid #3d7f51;
+}
+.custom-form-control{
+    height:30px;
+}
+.custom-btn{
+    padding: 2px 6px;
+    line-height: 1.62857143;
+    color:grey;
+}
+.action-text{
+    font-size: 16px;
+}
